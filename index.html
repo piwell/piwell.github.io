@@ -481,7 +481,7 @@
                             <hr class="star-primary">
                             <img src="img/experience/nasa.png" class="img-responsive img-centered" alt="">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src="https://drive.google.com/file/d/0B3MNA5pOMF7TdjN6eXNIeGZ6WDA/preview"></iframe>
+                                <iframe src=""></iframe>
                             </div>
                             <p>I am currently writing my Master Thesis at NASA Goddard Space Flight Center in US, Maryland. It is about space weather. </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -615,7 +615,7 @@
                             <hr class="star-primary">
                             <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src="https://drive.google.com/file/d/0B3MNA5pOMF7TSDFlMWlRb25NRW8/preview"></iframe>
+                                <iframe src=""></iframe>
                             </div>
                             <p></p> 
                         
@@ -670,7 +670,7 @@
                             <h2>Ladybug: Game on mobile cluster</h2>
                             <hr class="star-primary">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src="https://drive.google.com/file/d/0B3MNA5pOMF7TWkxUUHc3cUhNaUk/preview"></iframe>
+                                <iframe src=""></iframe>
                             </div>
                             <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
                             <!-- <p></p> -->
@@ -724,8 +724,9 @@
                         <div class="modal-body">
                             <h2>SGCTSky</h2>
                             <hr class="star-primary">
+
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src="https://drive.google.com/file/d/0B3MNA5pOMF7TTkM2OWtJU0xPYjg/preview"></iframe>
+                                <iframe src=""></iframe>
                             </div>
                             <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
                             <!-- <p></p> -->
@@ -782,7 +783,7 @@
                             <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
                             <!-- <p></p> -->
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src="https://drive.google.com/file/d/0B3MNA5pOMF7TOThrMVA3YVM4WmM/preview"></iframe>
+                                <iframe src=""></iframe>
                             </div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -809,7 +810,7 @@
                             <h2>Tilt</h2>
                             <hr class="star-primary">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src="https://drive.google.com/file/d/0B3MNA5pOMF7TeW5MWVdwMi1ZM2M/preview"></iframe>
+                                <iframe src=""></iframe>
                             </div>
 <!--                             <video width="320" height="240" controls="controls">
                             <source src="https://drive.google.com/file/d/0B3MNA5pOMF7TeW5MWVdwMi1ZM2M/preview" type="video/mp4" />
@@ -842,28 +843,44 @@
     <script src="js/freelancer.js"></script>
 
     <script type="text/javascript">
+
+        $("#portfolioModal3").on('show.bs.modal', function (e) {
+        $("#portfolioModal3 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TdjN6eXNIeGZ6WDA/preview");
+        });
         $("#portfolioModal3").on('hidden.bs.modal', function (e) {
-        $("#portfolioModal3 iframe").attr("src", $("#portfolioModal3 iframe").attr("src"));
+        $("#portfolioModal3 iframe").attr("src", "");
         });
 
+        $("#portfolioModal8").on('show.bs.modal', function (e) {
+        $("#portfolioModal8 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TSDFlMWlRb25NRW8/preview");
+        });
         $("#portfolioModal8").on('hidden.bs.modal', function (e) {
-        $("#portfolioModal8 iframe").attr("src", $("#portfolioModal8 iframe").attr("src"));
+        $("#portfolioModal8 iframe").attr("src", "");
         });
 
+        $("#portfolioModal10").on('show.bs.modal', function (e) {
+        $("#portfolioModal10 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TWkxUUHc3cUhNaUk/preview");
+        });
         $("#portfolioModal10").on('hidden.bs.modal', function (e) {
-        $("#portfolioModal10 iframe").attr("src", $("#portfolioModal10 iframe").attr("src"));
+        $("#portfolioModal10 iframe").attr("src", "");
         });
 
+        $("#portfolioModal12").on('show.bs.modal', function (e) {
+        $("#portfolioModal12 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TTkM2OWtJU0xPYjg/preview");
+        });
         $("#portfolioModal12").on('hidden.bs.modal', function (e) {
-        $("#portfolioModal12 iframe").attr("src", $("#portfolioModal12 iframe").attr("src"));
+        $("#portfolioModal12 iframe").attr("src", "");
         });
 
-        $("#portfolioModal14").on('hidden.bs.modal', function (e) {
-        $("#portfolioModal14 iframe").attr("src", $("#portfolioModal14 iframe").attr("src"));
+        $("#portfolioModal14").on('show.bs.modal', function (e) {
+        $("#portfolioModal14 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TOThrMVA3YVM4WmM/preview");
         });
 
+        $("#portfolioModal15").on('show.bs.modal', function (e) {
+        $("#portfolioModal15 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TeW5MWVdwMi1ZM2M/preview");
+        });
         $("#portfolioModal15").on('hidden.bs.modal', function (e) {
-        $("#portfolioModal15 iframe").attr("src", $("#portfolioModal15 iframe").attr("src"));
+        $("#portfolioModal15 iframe").attr("src", "");
         });
     </script>
 
