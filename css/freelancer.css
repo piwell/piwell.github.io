@@ -222,9 +222,16 @@ section.success a.active {
     display: block;
     position: relative;
     margin: 0 auto;
+    /*max-width: 300px;*/
+}
+
+.portfolio-big{
     max-width: 400px;
 }
 
+.portfolio-small{
+    max-width: 300px;
+}
 .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
