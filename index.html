@@ -481,7 +481,9 @@
                             <hr class="star-primary">
                             <img src="img/experience/nasa.png" class="img-responsive img-centered" alt="">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src=""></iframe>
+                                <video controls>
+                                  <source src="img/experience/spaceweather.mp4" type="video/mp4">
+                                </video>
                             </div>
                             <p>I am currently writing my Master Thesis at NASA Goddard Space Flight Center in US, Maryland. It is about space weather. </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -615,7 +617,9 @@
                             <hr class="star-primary">
                             <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src=""></iframe>
+                                <video controls>
+                                  <source src="img/projects/creatureai/creatureai.mp4" type="video/mp4">
+                                </video>
                             </div>
                             <p></p> 
                         
@@ -643,7 +647,7 @@
                         <div class="modal-body">
                             <h2>The Dark Side of the Moon</h2>
                             <hr class="star-primary">
-                            <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
+                            <img src="img/projects/darkside/thumb.png" class="img-responsive img-centered" alt="">
                             <!-- <p></p> -->
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -670,7 +674,9 @@
                             <h2>Ladybug: Game on mobile cluster</h2>
                             <hr class="star-primary">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src=""></iframe>
+                                <video controls>
+                                  <source src="img/projects/ladybug/ladybug.mp4" type="video/mp4">
+                                </video>
                             </div>
                             <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
                             <!-- <p></p> -->
@@ -698,7 +704,7 @@
                         <div class="modal-body">
                             <h2>Procedural Road Generation</h2>
                             <hr class="star-primary">
-                            <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
+                            <img src="img/projects/roads/city.png" class="img-responsive img-centered" alt="">
                             <!-- <p></p> -->
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -726,7 +732,9 @@
                             <hr class="star-primary">
 
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src=""></iframe>
+                                <video controls>
+                                  <source src="img/projects/sgctsky/SGCTSky.mp4" type="video/mp4">
+                                </video>
                             </div>
                             <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
                             <!-- <p></p> -->
@@ -754,7 +762,7 @@
                         <div class="modal-body">
                             <h2>2D SPH Fluids</h2>
                             <hr class="star-primary">
-                            <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
+                            <img src="img/projects/sph/emiters.png" class="img-responsive img-centered" alt="">
                             <!-- <p></p> -->
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -783,7 +791,9 @@
                             <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
                             <!-- <p></p> -->
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src=""></iframe>
+                                <video controls>
+                                  <source src="img/projects/tetrisai/tetrisai.mp4" type="video/mp4">
+                                </video>
                             </div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -810,7 +820,9 @@
                             <h2>Tilt</h2>
                             <hr class="star-primary">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src=""></iframe>
+                                <video controls>
+                                  <source src="img/projects/tilt/tilt.mp4" type="video/mp4">
+                                </video>
                             </div>
 <!--                             <video width="320" height="240" controls="controls">
                             <source src="https://drive.google.com/file/d/0B3MNA5pOMF7TeW5MWVdwMi1ZM2M/preview" type="video/mp4" />
@@ -843,45 +855,47 @@
     <script src="js/freelancer.js"></script>
 
     <script type="text/javascript">
+        $('body').on('hidden.bs.modal', '.modal', function () {
+            $('video').trigger('pause');
+        });
+        // $("#portfolioModal3").on('show.bs.modal', function (e) {
+        // $("#portfolioModal3 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TdjN6eXNIeGZ6WDA/preview");
+        // });
+        // $("#portfolioModal3").on('hidden.bs.modal', function (e) {
+        // $("#portfolioModal3 video").attr("src", "");
+        // });
 
-        $("#portfolioModal3").on('show.bs.modal', function (e) {
-        $("#portfolioModal3 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TdjN6eXNIeGZ6WDA/preview");
-        });
-        $("#portfolioModal3").on('hidden.bs.modal', function (e) {
-        $("#portfolioModal3 iframe").attr("src", "");
-        });
+        // $("#portfolioModal8").on('show.bs.modal', function (e) {
+        // $("#portfolioModal8 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TSDFlMWlRb25NRW8/preview");
+        // });
+        // $("#portfolioModal8").on('hidden.bs.modal', function (e) {
+        // $("#portfolioModal8 iframe").attr("src", "");
+        // });
 
-        $("#portfolioModal8").on('show.bs.modal', function (e) {
-        $("#portfolioModal8 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TSDFlMWlRb25NRW8/preview");
-        });
-        $("#portfolioModal8").on('hidden.bs.modal', function (e) {
-        $("#portfolioModal8 iframe").attr("src", "");
-        });
+        // $("#portfolioModal10").on('show.bs.modal', function (e) {
+        // $("#portfolioModal10 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TWkxUUHc3cUhNaUk/preview");
+        // });
+        // $("#portfolioModal10").on('hidden.bs.modal', function (e) {
+        // $("#portfolioModal10 iframe").attr("src", "");
+        // });
 
-        $("#portfolioModal10").on('show.bs.modal', function (e) {
-        $("#portfolioModal10 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TWkxUUHc3cUhNaUk/preview");
-        });
-        $("#portfolioModal10").on('hidden.bs.modal', function (e) {
-        $("#portfolioModal10 iframe").attr("src", "");
-        });
+        // $("#portfolioModal12").on('show.bs.modal', function (e) {
+        // $("#portfolioModal12 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TTkM2OWtJU0xPYjg/preview");
+        // });
+        // $("#portfolioModal12").on('hidden.bs.modal', function (e) {
+        // $("#portfolioModal12 iframe").attr("src", "");
+        // });
 
-        $("#portfolioModal12").on('show.bs.modal', function (e) {
-        $("#portfolioModal12 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TTkM2OWtJU0xPYjg/preview");
-        });
-        $("#portfolioModal12").on('hidden.bs.modal', function (e) {
-        $("#portfolioModal12 iframe").attr("src", "");
-        });
+        // $("#portfolioModal14").on('show.bs.modal', function (e) {
+        // $("#portfolioModal14 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TOThrMVA3YVM4WmM/preview");
+        // });
 
-        $("#portfolioModal14").on('show.bs.modal', function (e) {
-        $("#portfolioModal14 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TOThrMVA3YVM4WmM/preview");
-        });
-
-        $("#portfolioModal15").on('show.bs.modal', function (e) {
-        $("#portfolioModal15 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TeW5MWVdwMi1ZM2M/preview");
-        });
-        $("#portfolioModal15").on('hidden.bs.modal', function (e) {
-        $("#portfolioModal15 iframe").attr("src", "");
-        });
+        // $("#portfolioModal15").on('show.bs.modal', function (e) {
+        // $("#portfolioModal15 iframe").attr("src", "https://drive.google.com/file/d/0B3MNA5pOMF7TeW5MWVdwMi1ZM2M/preview");
+        // });
+        // $("#portfolioModal15").on('hidden.bs.modal', function (e) {
+        // $("#portfolioModal15 iframe").attr("src", "");
+        // });
     </script>
 
 </body>
