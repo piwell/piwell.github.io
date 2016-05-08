@@ -517,3 +517,13 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+.skillz{
+    display: block;
+    font-family: Menlo, Monaco, Consolas, "Curier New", monspace;
+    border: 1px solid #cccccc;
+    color: #c7254e;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    padding:10px;
+}
