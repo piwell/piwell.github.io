@@ -215,9 +215,7 @@ section.success a.active {
 
 .portfolio-item {
     right: 0;
-    /*margin: 0 0 15px;*/
-    margin-left: auto;
-    margin-top: 15px;
+    margin: auto auto 15px;
 }
 
 .portfolio-item .portfolio-link {
