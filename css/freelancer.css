@@ -527,3 +527,7 @@ footer .footer-below {
     border-radius: 4px;
     padding:10px;
 }
+
+.list-group-item{
+    text-align: left;
+}
