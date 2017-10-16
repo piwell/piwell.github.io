@@ -27,3 +27,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'therubyracer'
 gem 'jekyll-less'
+gem "github-pages", group: :jekyll_plugins
