@@ -1,0 +1,6 @@
+image: nasa.png
+title: Research scholar at NASA
+sub: Mar 2016 - Jul 2016
+video: experience/nasa.mp4
+content: >
+  I wrote my Master Thesis at NASA Goddard Space Flight Center in the US, Maryland. The thesis focused on space weather visualization. I integrated the science tool <a href="http://iswa.gsfc.nasa.gov/" target="_blank">iSWA</a> into a project called <a href="http://openspace.itn.liu.se/" target="_blank">OpenSpace</a>. The video shows the effect of the St. Patric's day solar storm of 2015 on the global magnetosphere pressure, visualized in OpenSpace.

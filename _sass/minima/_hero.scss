@@ -1,0 +1,22 @@
+#hero {
+  background: url($hero-image);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+#hero .inner {
+  min-height: 300px;
+  position: relative;
+}
+
+#hero .copy {
+  position: absolute;
+  top: 50%;
+  height: 10em;
+  margin-top: -5em;
+  width: 100%;
+}

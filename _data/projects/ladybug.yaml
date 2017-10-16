@@ -1,0 +1,6 @@
+image: ladybug.png
+title: Ladybug - Game on mobile cluster
+sub: Media Technology - Bachelor Project
+video: projects/ladybug.mp4
+content: >
+  A game on mobile clusters for Android phones. We created a way to connect multiple screens to form a virtual game board with real world positions. The made a fun game around that mechanic. An explanation video i shown below and the code can be found on <a href="https://github.com/Cigg/Game-on-Mobile-Cluster" target="_blank"> github </a>.

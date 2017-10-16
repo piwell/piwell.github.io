@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% for section in site.data.sections %}
+<section id="{{ section.name }}" {% if section.theme == "dark" %} class="success" {% endif %}>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>{{ section.name }}</h2>
+        {% if section.theme == "dark" %}
+          <hr class="star-light">
+        {% else %}
+          <hr class="star-primary">
+        {% endif %}
+      </div>
+    </div>
+    {% include {{ section.include }} %}
+  </div>
+</section>
+{% endfor %}

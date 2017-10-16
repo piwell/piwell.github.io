@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2">
+  <p>{{ site.data.about.description }}</p>
+  </div>
+</div>
+
+<div class="col-lg-8 col-lg-offset-2 text-center">
+  <ul class="list-inline">
+    {% for contact in site.data.about.contact %}
+      <li>
+        <a href="{% if contact.icon == 'fa-envelope-o' %}mailto:{% endif %}{{ contact.value }}" class="btn-social btn-outline success big">
+          <i class="fa fa-fw fa-2x {{ contact.icon }}"></i>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2 text-center">
+  <a href="{{ site.data.about.cv }}" class="btn btn-lg btn-outline success">
+    <i class="fa fa-download"></i> CV
+  </a>
+  </div>
+</div>

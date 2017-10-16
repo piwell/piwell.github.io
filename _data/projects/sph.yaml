@@ -1,0 +1,6 @@
+image: sph.png
+title: 2D SPH Fluids
+sub: Modelling Project
+modal-image: projects/sph-modal.png
+content: >
+  A multi-threaded Smoothed Particle hydrodynamic fluid simulation written in C++. The code is on <a href="https://github.com/fredlb/MoS-SPH" target="_blank">github</a>.

@@ -1,0 +1,9 @@
+- name: About
+  theme: light
+  include: sections/about.html
+- name: Experience
+  theme: dark
+  include: sections/experience.html
+- name: Projects
+  theme: dark
+  include: sections/projects.html

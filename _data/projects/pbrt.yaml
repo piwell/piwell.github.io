@@ -1,0 +1,6 @@
+image: pbrt.png
+title: The PBRT Side of the Moon
+sub: Computer Graphics, Image Synthesis Techniques
+modal-image: projects/pbrt.png
+content: >
+  An extension of the pbrt renderer. We extended it with dispersion and photon volume integration. The goal was recreate the classic album cover by Pink Floyd in a physically based rendering. The result is shown below and the code can be found on <a href="https://github.com/piwell/CS348B-pbrt" target="_blank"> github </a>.

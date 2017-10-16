@@ -1,0 +1,15 @@
+<div class="portfolio" class="row">
+  {% for project_hash in site.data.projects %}
+  {% assign project = project_hash[1] %}
+  <div class="col-xs-4 col-sm-3 portfolio-item">
+    <a href="#projectModal{{ forloop.index0 }}" class="portfolio-link small" data-toggle="modal">
+      <div class="caption">
+        <div class="caption-content text-center">
+          <h3>{{ project.title }}</h3>
+        </div>
+      </div>
+      <img src="media/projects/{{ project.image }}" class="img-responsive" alt="">
+    </a>
+  </div>
+  {% endfor %}
+</div>

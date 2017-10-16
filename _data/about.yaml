@@ -1,0 +1,16 @@
+firstname: Sebastian
+lastname: Piwell
+header-image: "media/profile_small.png"
+skills: Software Developer - Traveler - Cool Guy
+contact:
+  - value: sebastian@piwell.se
+    icon: fa-envelope-o
+  - value: https://github.com/piwell
+    icon: fa-github
+  - value: https://www.linkedin.com/in/piwell
+    icon: fa-linkedin
+  - value: https://www.facebook.com/sebastian.piwell
+    icon: fa-facebook
+cv: "assets/CV.pdf"
+description: >
+  Currently on a year-long trip across Australia. I'm soon ready to leave and go back home to Sweden. My big interests right now are in <b>Big Data</b> and <b>Visualization</b>. During my studies, I got intrigued with these subjects and now I'm excited to work with and learn more about them.

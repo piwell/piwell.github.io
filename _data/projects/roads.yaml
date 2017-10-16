@@ -1,0 +1,6 @@
+image: roads.png
+title: Procedural Road Generation
+sub: Procedural Methods for Images
+modal-image: projects/roads-modal.png
+content: >
+  A procedural generated road network mostly for the web, mostly written in javascript. Check it out more information and the project at <a href="http://about.piwell.se/TNM084-Procedural-Roads/" target="_blank">roads.piwell.se</a> and the code at <a href="https://github.com/piwell/TNM084-Procedural-Roads" target="_blank ">github</a>

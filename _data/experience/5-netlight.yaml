@@ -1,0 +1,6 @@
+image: netlight.png
+title: Software developer at Netlight
+sub: Jul 2016 - Oct 2016
+content: >
+  I worked as a temporary software developer for the internal IT department. My job focused on developing the Monitoring project, which focuses on increasing and improving the system monitoring. The system monitoring base is in Nagios, but I mostly wrote Python scripts to check the health on different kinds of servers and web services.
+  

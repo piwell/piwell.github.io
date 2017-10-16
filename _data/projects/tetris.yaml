@@ -1,0 +1,6 @@
+image: tetrisai.png
+title: TetrisAI
+sub: Artificial Intelligence, Principles and Techniques
+video: projects/tetrisai.mp4
+content: >
+  A Tetris playing AI written in Python. The video shows the AI doing its thing. The code is on <a href="https://github.com/nusic/TetrisAI" target="_blank">github</a>.

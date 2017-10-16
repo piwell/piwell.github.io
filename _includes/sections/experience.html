@@ -1,0 +1,17 @@
+<div class="portfolio" class="row">
+	{% assign experience_sorted = site.data.experience | sort %}
+  {% for experience_hash in experience_sorted reversed %}
+  {% assign exp = experience_hash[1] %}
+
+  <div class="col-xs-6 col-sm-4 portfolio-item">
+    <a href="#experienceModal{{ forloop.index0 }}" class="portfolio-link" data-toggle="modal">
+      <div class="caption">
+        <div class="caption-content text-center">
+          <h3>{{ exp.title }}</h3>
+        </div>
+      </div>
+      <img src="media/experience/{{ exp.image }}" class="img-responsive" alt="">
+    </a>
+  </div>
+  {% endfor %}
+</div>

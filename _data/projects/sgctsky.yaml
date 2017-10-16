@@ -1,0 +1,6 @@
+image: sgctsky.png
+title: SGCTSky
+sub: 3-D Computer Graphics
+video: projects/sgctsky.mp4
+content: >
+  A cloud and sky simulation for dome theaters. Using Preetham scattering written as a GLSL shader and <a href="https://c-student.itn.liu.se/wiki/develop:sgct:sgct" target="_blank">SGCT</a> to render it on a dome. The video below shows the result on a flat computer monitor.

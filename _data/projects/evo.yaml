@@ -1,0 +1,6 @@
+image: creatureai.png
+title: Creature Evolution
+sub: Artificial Intelligence for Interactive Media
+video: projects/creatureai.mp4
+content: >
+  A creature evolution project for the web written mostly in javascript. Check it out on <a href="http://about.piwell.se/TNM095-Creature-Evolution/" target="_blank">evo.piwell.se</a> or the code at <a href="https://github.com/piwell/TNM095-Creature-Evolution" target="_blank">github</a>. Below is a video of an example run of the algorithm.

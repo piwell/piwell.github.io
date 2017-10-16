@@ -1,0 +1,36 @@
+<div class="modal-content">
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+      <div class="modal-body">
+        <h2>{{ info.title }}</h2>
+        <h3>{{ info.sub }}</h3>
+        <hr class="star-primary">
+        <div class="row">
+        {% if info.video or info.modal-image %}
+            <div class="col-lg-6">
+              <p>{{ info.content }}</p>
+            </div>
+            <div class="col-lg-6">
+              {% if info.video %}
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video controls>
+                    <source src="media/{{ info.video }}" type="video/mp4">
+                  </video>
+                </div>
+              {% else %}
+                <img class="img-centered" src="media/{{ info.modal-image }}">
+            {% endif %}
+            </div>
+        {% else %}
+          <div class="col-lg-10 col-lg-offset-1">
+            <p>{{ info.content }}</p>
+          </div>
+        {% endif %}
+        </div>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+      </div>
+    </div>
+  </div>
+</div>
